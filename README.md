@@ -196,6 +196,6 @@ It satisfies **all key deliverables** in the assignment:
 
 ------------------------------------------------------------------------
 
-**Author:** Shubham Asole
-**Role:** Quant Developer Assignment Submission --- GEMSCAP Global
+**Author:** Shubham Asole/
+**Role:** Quant Developer Assignment Submission --- GEMSCAP Global/
 **Date:** November 2025
