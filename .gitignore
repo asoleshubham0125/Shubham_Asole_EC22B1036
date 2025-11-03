@@ -1,10 +1,8 @@
-<<<<<<< HEAD
-# Your local .gitignore content
+# Local ignore
 node_modules/
 .env
 .DS_Store
-=======
-# GitHub .gitignore content
+
+# Remote ignore
 venv/
 __pycache__/
->>>>>>> origin/main
