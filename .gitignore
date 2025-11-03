@@ -1,8 +1,0 @@
-# Local ignore
-node_modules/
-.env
-.DS_Store
-
-# Remote ignore
-venv/
-__pycache__/
