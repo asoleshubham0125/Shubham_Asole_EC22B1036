@@ -114,8 +114,7 @@ The system is built with a **Python/Starlette backend** and a **vanilla HTML/CSS
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/yourusername/gemscap-assignment.git](https://github.com/yourusername/gemscap-assignment.git)
-    cd gemscap-assignment
+    git clone [https://github.com/asoleshubham0125/Shubham_Asole_EC22B1036.git](https://github.com/asoleshubham0125/Shubham_Asole_EC22B1036.git)
     ```
 
 2.  Install Python dependencies:
