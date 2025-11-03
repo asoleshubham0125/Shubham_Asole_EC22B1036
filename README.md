@@ -187,12 +187,11 @@ pipeline** capable of: - Handling **live data ingestion** - Running
 alerts** - Presenting **intuitive interactive visualizations**
 
 It satisfies **all key deliverables** in the assignment:
-✅ Backend Data Pipeline
-✅ Frontend Visualization
-✅ Live Analytics Updates
-✅ Custom Alerts
-✅ Export Options
-✅ Clear Documentation & Architecture
+✅ Backend Data Pipeline/
+✅ Live Analytics Updates/
+✅ Custom Alerts/
+✅ Export Options/
+✅ Clear Documentation & Architecture/
 
 ------------------------------------------------------------------------
 
