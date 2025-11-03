@@ -186,16 +186,16 @@ pipeline** capable of: - Handling **live data ingestion** - Running
 **real-time statistical computations** - Managing **custom user
 alerts** - Presenting **intuitive interactive visualizations**
 
-It satisfies **all key deliverables** in the assignment:\
-✅ Backend Data Pipeline\
-✅ Frontend Visualization\
-✅ Live Analytics Updates\
-✅ Custom Alerts\
-✅ Export Options\
+It satisfies **all key deliverables** in the assignment:
+✅ Backend Data Pipeline
+✅ Frontend Visualization
+✅ Live Analytics Updates
+✅ Custom Alerts
+✅ Export Options
 ✅ Clear Documentation & Architecture
 
 ------------------------------------------------------------------------
 
-**Author:** Shubham Asole\
-**Role:** Quant Developer Assignment Submission --- GEMSCAP\
+**Author:** Shubham Asole
+**Role:** Quant Developer Assignment Submission --- GEMSCAP Global
 **Date:** November 2025
