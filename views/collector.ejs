@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binance Collector</title>
+    <link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+    <h1>Binance Collector</h1>
+    <div class="controls">
+      <input id="symbols" value="btcusdt,ethusdt" />
+      <button id="start">Start</button>
+      <button id="stop">Stop</button>
+    </div>
+    
+    <h2>Saved tick Count: <span id="counter">0</span></h2>
+
+    <script>
+        async function fetchTicks() {
+        const res = await fetch("/api/ticks");
+        const data = await res.json();
+        document.getElementById("counter").textContent = data.length;
+        }
+
+        document.getElementById("start").addEventListener("click", async () => {
+        const symbols = document.getElementById("symbols").value.split(",");
+        await fetch("/api/ticks/start", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify({ symbols }),
+        });
+        alert("Collector started");
+        });
+
+        document.getElementById("stop").addEventListener("click", async () => {
+        await fetch("/api/ticks/stop", { method: "POST" });
+        alert("Collector stopped");
+        });
+
+        setInterval(fetchTicks, 2000);
+    </script>
+</body>
+</html>
