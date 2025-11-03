@@ -192,7 +192,7 @@ It satisfies **all key deliverables** in the assignment:
 ✅ Live Analytics Updates\
 ✅ Custom Alerts\
 ✅ Export Options\
-✅ Clear Documentation & Architecture\
+✅ Clear Documentation & Architecture
 
 ------------------------------------------------------------------------
 
