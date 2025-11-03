@@ -167,28 +167,6 @@ GET /api/alerts
 
 ------------------------------------------------------------------------
 
-## 💡 Analytics Implemented
-
--   **Z-Score** = (Spread - Mean) / Std Dev\
--   **Spread** = Price(X) - HedgeRatio \* Price(Y)\
--   **OLS Regression** = Linear fit of Y over X\
--   **Rolling Correlation** = Pearson correlation over window\
--   **ADF Test** = Stationarity check for mean reversion
-
-------------------------------------------------------------------------
-
-## 🧱 Design Philosophy
-
--   **Loose coupling:** Ingestion, analytics, and alert logic are
-    independent modules.\
--   **Scalable:** Can easily connect to other exchanges (CME, NSE,
-    etc.)\
--   **Extensible:** Add new analytics (e.g., Kalman Filter, Huber
-    Regression) without breaking structure.\
--   **Clarity over Complexity:** Prioritizes readability and clean
-    architecture.
-------------------------------------------------------------------------
-
 ## 🧠 ChatGPT Usage Transparency
 
 ChatGPT was used to assist in: - Structuring project architecture
