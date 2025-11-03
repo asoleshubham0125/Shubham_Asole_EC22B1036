@@ -33,7 +33,7 @@ relationships between crypto pairs in real time.
 -   **Data Export:** Processed data and analytics can be downloaded as
     CSV/JSON.
 
-### 🖥️ Frontend (HTML + JS + Chart.js)
+### 🖥️ Frontend (HTML + JS )
 
 -   Real-time charts displaying:
     -   **Price Movements** of symbol pairs (X/Y)
@@ -61,7 +61,7 @@ Users can create, view, and delete alerts: - Example alert: "Z-score >
 
 ### 🧱 Components
 
-1.  **Frontend (HTML + JS + Chart.js)** --- Visualization and user
+1.  **Frontend (HTML + JS )** --- Visualization and user
     interaction.
 2.  **Backend (Express.js)** --- Data routing, API endpoints, and alert
     service.
@@ -107,7 +107,7 @@ Users can create, view, and delete alerts: - Example alert: "Z-score >
   ------------------------ ----------------------------------------------
   **Backend**              Node.js, Express.js
 
-  **Frontend**             HTML, CSS, JavaScript (Chart.js)
+  **Frontend**             HTML, CSS, JavaScript
 
   **Data Source**          Binance WebSocket
 
